@@ -1,6 +1,6 @@
-package com.feige.usercenter.exception;
+package com.feige.friend.exception;
 
-import com.feige.usercenter.common.ErrorCode;
+import com.feige.friend.common.ErrorCode;
 
 /**
  * 自定义异常类

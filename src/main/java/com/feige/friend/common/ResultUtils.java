@@ -1,4 +1,4 @@
-package com.feige.usercenter.common;
+package com.feige.friend.common;
 
 /**
  * 返回工具类

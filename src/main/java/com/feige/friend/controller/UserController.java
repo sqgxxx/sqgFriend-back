@@ -1,14 +1,14 @@
-package com.feige.usercenter.controller;
+package com.feige.friend.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.feige.usercenter.common.BaseResponse;
-import com.feige.usercenter.common.ErrorCode;
-import com.feige.usercenter.common.ResultUtils;
-import com.feige.usercenter.exception.BusinessException;
-import com.feige.usercenter.model.domain.User;
-import com.feige.usercenter.model.domain.request.UserLoginRequest;
-import com.feige.usercenter.model.domain.request.UserRegisterRequest;
-import com.feige.usercenter.service.UserService;
+import com.feige.friend.common.BaseResponse;
+import com.feige.friend.common.ErrorCode;
+import com.feige.friend.common.ResultUtils;
+import com.feige.friend.exception.BusinessException;
+import com.feige.friend.model.domain.User;
+import com.feige.friend.model.domain.request.UserLoginRequest;
+import com.feige.friend.model.domain.request.UserRegisterRequest;
+import com.feige.friend.service.UserService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.web.bind.annotation.*;
 
@@ -17,8 +17,8 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static com.feige.usercenter.contant.UserConstant.ADMIN_ROLE;
-import static com.feige.usercenter.contant.UserConstant.USER_LOGIN_STATE;
+import static com.feige.friend.contant.UserConstant.ADMIN_ROLE;
+import static com.feige.friend.contant.UserConstant.USER_LOGIN_STATE;
 
 /**
  * 用户接口

@@ -1,4 +1,4 @@
-package com.feige.usercenter.contant;
+package com.feige.friend.contant;
 
 /**
  * 用户常量

@@ -1,12 +1,12 @@
-package com.feige.usercenter.service.impl;
+package com.feige.friend.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.feige.usercenter.common.ErrorCode;
-import com.feige.usercenter.exception.BusinessException;
-import com.feige.usercenter.model.domain.User;
-import com.feige.usercenter.service.UserService;
-import com.feige.usercenter.mapper.UserMapper;
+import com.feige.friend.common.ErrorCode;
+import com.feige.friend.exception.BusinessException;
+import com.feige.friend.model.domain.User;
+import com.feige.friend.service.UserService;
+import com.feige.friend.mapper.UserMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static com.feige.usercenter.contant.UserConstant.USER_LOGIN_STATE;
+import static com.feige.friend.contant.UserConstant.USER_LOGIN_STATE;
 
 /**
  * 用户服务实现类

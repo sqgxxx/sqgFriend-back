@@ -1,4 +1,4 @@
-package com.feige.usercenter.model.domain;
+package com.feige.friend.model.domain;
 
 import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;

@@ -1,6 +1,6 @@
-package com.feige.usercenter.mapper;
+package com.feige.friend.mapper;
 
-import com.feige.usercenter.model.domain.User;
+import com.feige.friend.model.domain.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

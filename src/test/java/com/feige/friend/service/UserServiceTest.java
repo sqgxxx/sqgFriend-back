@@ -1,6 +1,6 @@
-package com.feige.usercenter.service;
+package com.feige.friend.service;
 
-import com.feige.usercenter.model.domain.User;
+import com.feige.friend.model.domain.User;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

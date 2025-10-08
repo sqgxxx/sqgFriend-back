@@ -1,8 +1,8 @@
-package com.feige.usercenter.exception;
+package com.feige.friend.exception;
 
-import com.feige.usercenter.common.BaseResponse;
-import com.feige.usercenter.common.ErrorCode;
-import com.feige.usercenter.common.ResultUtils;
+import com.feige.friend.common.BaseResponse;
+import com.feige.friend.common.ErrorCode;
+import com.feige.friend.common.ResultUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;

@@ -1,4 +1,4 @@
-package com.feige.usercenter;
+package com.feige.friend;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  */
 @SpringBootApplication
-@MapperScan("com.feige.usercenter.mapper")
+@MapperScan("com.feige.friend.mapper")
 public class UserCenterApplication {
 
     public static void main(String[] args) {

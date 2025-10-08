@@ -1,6 +1,6 @@
-package com.feige.usercenter.service;
+package com.feige.friend.service;
 
-import com.feige.usercenter.model.domain.User;
+import com.feige.friend.model.domain.User;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 import javax.servlet.http.HttpServletRequest;
