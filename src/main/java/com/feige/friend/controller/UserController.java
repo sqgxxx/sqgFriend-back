@@ -110,7 +110,12 @@ public class UserController {
         return ResultUtils.success(safetyUser);
     }
 
-
+    /**
+     * 搜索用户
+     * @param username
+     * @param request
+     * @return
+     */
     @GetMapping("/search")
     public BaseResponse<List<User>> searchUsers(String username, HttpServletRequest request) {
         if (!isAdmin(request)) {
@@ -125,6 +130,12 @@ public class UserController {
         return ResultUtils.success(list);
     }
 
+    /**
+     * 删除用户
+     * @param id
+     * @param request
+     * @return
+     */
     @PostMapping("/delete")
     public BaseResponse<Boolean> deleteUser(@RequestBody long id, HttpServletRequest request) {
         if (!isAdmin(request)) {
